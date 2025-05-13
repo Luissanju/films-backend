@@ -62,7 +62,7 @@ Añade estas líneas al archivo `hosts`:
 ```
 
 - **Frontend:** http://films.dev.com:8081  
-- **Backend:** http://films.api.dev.com:8080/api  
+- **Backend:** http://films.api.dev.com:8080/api/films/get_films.php  
 - **Mantenimiento:** http://mantenimiento.dev.com:8081
 
 📍 Archivo `hosts`:
@@ -153,8 +153,8 @@ Guarda y reinicia el contenedor del frontend si es necesario.
 
 ### 6. Acceder a las aplicaciones
 
-- **Frontend:** http://films-luis-daw.chickenkiller.com  
-- **Backend:** http://films-luis-daw.api.chickenkiller.com:8080/api  
+- **Frontend:** http://films-luis-daw.api.chickenkiller.com  
+- **Backend:** http://films-luis-daw.api.chickenkiller.com:8080/api/films/get_films.php  
 - **Mantenimiento:** http://mantenimiento-luis-daw.chickenkiller.com
 
 ---
